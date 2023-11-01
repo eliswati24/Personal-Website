@@ -1,0 +1,37 @@
+/* CSS untuk latar belakang warna */
+body {
+  background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+
+/* CSS untuk membuat gambar menjadi bulat dan mengatur ukuran maksimum */
+img {
+  border-radius: 50%; /* Mengubah desimal menjadi persen, membuat gambar menjadi bulat */
+  max-width: 200px; /* Mengatur lebar maksimum gambar */
+  height: auto; /* Menjaga rasio aspek gambar */
+  margin-right: 20px; /* Menambahkan margin ke kanan gambar */
+  margin-bottom: 20px; /* Menambahkan margin ke bawah gambar */
+  margin-left: 45px; /* Menambahkan margin ke kiri gambar */
+}
+
+img.profile-image {
+  border: 5px solid white; /* Menambahkan pinggiran putih sebanyak 5px pada gambar dengan kelas profile-image */
+}
+
+/* CSS untuk mengatur tabel */
+table {
+  margin-top: 20px; /* Menambahkan margin ke atas tabel */
+}
+
+footer {
+  text-align: center; /* Mengatur teks di bagian footer menjadi rata tengah */
+  margin-top: 1.5rem; /* Menambahkan margin di atas footer */
+}
+
+footer .credit {
+  font-size: 0.8rem; /* Mengatur ukuran font untuk kredit di footer */
+}
+
+footer .credit a {
+  color: var(--bg); /* Mengatur warna teks tautan di footer */
+  font-weight: 700; /* Mengatur ketebalan font tautan di footer */
+}
